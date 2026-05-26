@@ -44,6 +44,6 @@ As etapas devem ser executadas em ordem.
   - Adicionar cabeçalho, instruções e rodapé seguindo um design limpo e acessível.
 
 ## Fase 5: Revisão e Testes Manuais
-- [ ] 14. Validar proteção de clique duplo (loading state).
-- [ ] 15. Validar filtragem: tentar subir pasta com PDFs e PNGs (não devem processar).
-- [ ] 16. Build Estático: Rodar `npm run build` e confirmar geração da pasta `out/`.
+- [x] 14. Validar proteção de clique duplo (loading state).
+- [x] 15. Validar filtragem: tentar subir pasta com PDFs e PNGs (não devem processar).
+- [x] 16. Build Estático: Rodar `npm run build` e confirmar geração da pasta `out/`.
