@@ -33,12 +33,12 @@ As etapas devem ser executadas em ordem.
   - Limpar as referências de memória dos arquivos após a finalização (Prevenção de Memory Leak).
 
 ## Fase 4: Interface de Usuário (Components & View)
-- [ ] 11. Criar componentes UI puros (`src/components/ui/Button.tsx`, `src/components/ui/Input.tsx`, etc.) usando Tailwind.
-- [ ] 12. Implementar `src/components/FileUploadForm.tsx`:
+- [x] 11. Criar componentes UI puros (`src/components/ui/Button.tsx`, `src/components/ui/Input.tsx`, etc.) usando Tailwind.
+- [x] 12. Implementar `src/components/FileUploadForm.tsx`:
   - Formulário com input `webkitdirectory` para pastas.
   - Campos controlados para prefixo (RF03) e padding (RF04).
   - Tratamento visual de validações e erros.
-- [ ] 13. Integrar tudo em `src/app/page.tsx`:
+- [x] 13. Integrar tudo em `src/app/page.tsx`:
   - Importar e renderizar o form.
   - Conectar aos hooks.
   - Adicionar cabeçalho, instruções e rodapé seguindo um design limpo e acessível.
